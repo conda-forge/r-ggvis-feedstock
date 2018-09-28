@@ -1,4 +1,4 @@
-{% set version = '0.4.3' %}
+{% set version = "0.4.4" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/ggvis_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/ggvis/ggvis_{{ version }}.tar.gz
-  sha256: 34d517783016aaa1c4bef8972f4c06df5cd9ca0568035b647e60a8369043ecdc
+  sha256: 1332ea122b768688c8a407a483be80febc4576de0ec8929077738421b27cafaf
 
 build:
   number: 0
