@@ -3,7 +3,7 @@ About r-ggvis
 
 Home: http://ggvis.rstudio.com/
 
-Package license: GPL-2
+Package license: GPL-2 | file LICENSE
 
 Feedstock license: BSD 3-Clause
 
