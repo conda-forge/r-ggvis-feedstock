@@ -53,7 +53,7 @@ test:
 
 about:
   home: http://ggvis.rstudio.com/
-  license: GPL-2 | file LICENSE
+  license: GPL-2
   summary: An implementation of an interactive grammar of graphics, taking the best parts of
     'ggplot2', combining them with the reactive framework of 'shiny' and drawing web
     graphics using 'vega'.
@@ -63,4 +63,4 @@ extra:
   recipe-maintainers:
     - dpryan79
     - johanneskoester
-    - bgrueningrmation about meta.yaml
+    - bgruening
