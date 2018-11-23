@@ -3,7 +3,7 @@ About r-ggvis
 
 Home: http://ggvis.rstudio.com/
 
-Package license: GPL-2 | file LICENSE
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
@@ -14,9 +14,8 @@ Summary: An implementation of an interactive grammar of graphics, taking the bes
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-ggvis-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-ggvis-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-ggvis-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-ggvis-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-ggvis-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-ggvis-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-ggvis-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-ggvis-feedstock)
 
 Current release info
 ====================
