@@ -15,8 +15,9 @@ source:
   sha256: 1332ea122b768688c8a407a483be80febc4576de0ec8929077738421b27cafaf
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -24,8 +25,6 @@ build:
 # Suggests: MASS, mgcv, lubridate, testthat (>= 0.8.1), knitr (>= 1.6), rmarkdown
 requirements:
   build:
-    - {{posix}}zip               # [win]
-
   host:
     - r-base
     - r-assertthat
