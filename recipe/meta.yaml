@@ -57,6 +57,7 @@ about:
     'ggplot2', combining them with the reactive framework of 'shiny' and drawing web
     graphics using 'vega'.
   license_family: GPL2
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
