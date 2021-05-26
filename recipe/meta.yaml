@@ -1,5 +1,4 @@
 {% set version = "0.4.7" %}
-
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -22,7 +21,6 @@ build:
     - lib/R/lib/
     - lib/
 
-# Suggests: MASS, mgcv, lubridate, testthat (>= 0.8.1), knitr (>= 1.6), rmarkdown
 requirements:
   build:
   host:
@@ -34,7 +32,6 @@ requirements:
     - r-lazyeval
     - r-magrittr
     - r-shiny >=0.11.1
-
   run:
     - r-base
     - r-assertthat
@@ -52,7 +49,7 @@ test:
 
 about:
   home: http://ggvis.rstudio.com/
-  license: GPL-2
+  license: GPL-2.0-only
   summary: An implementation of an interactive grammar of graphics, taking the best parts of 'ggplot2', combining them with the reactive framework of 'shiny' and drawing web graphics using 'vega'.
   license_family: GPL2
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
