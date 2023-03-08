@@ -1,11 +1,11 @@
-About r-ggvis
-=============
+About r-ggvis-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggvis-feedstock/blob/main/LICENSE.txt)
 
 Home: http://ggvis.rstudio.com/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggvis-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of an interactive grammar of graphics, taking the best parts of 'ggplot2', combining them with the reactive framework of 'shiny' and drawing web graphics using 'vega'.
 
