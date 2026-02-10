@@ -1,4 +1,4 @@
-{% set version = "0.4.9" %}
+{% set version = "0.4.10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggvis_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggvis/ggvis_{{ version }}.tar.gz
-  sha256: 69b9d184789c90aedd2f336d43033a8b710a16b052580bf9e7ce229ac25ba12f
+  sha256: 22c0378c7ff3ab9fa8dfde839534eda61853a047e05b551fe701678c85347389
 
 build:
   noarch: generic
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
